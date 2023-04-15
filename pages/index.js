@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Image from 'next/image';
+import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -55,9 +55,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-          >
+          <p className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}>
             Find in-depth information about Next.js features and API.
           </p>
         </a>
@@ -74,9 +72,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-          >
+          <p className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}>
             Learn about Next.js in an interactive course with&nbsp;quizzes!
           </p>
         </a>
@@ -93,9 +89,7 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-          >
+          <p className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}>
             Discover and deploy boilerplate example Next.js&nbsp;projects.
           </p>
         </a>
@@ -112,13 +106,11 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-          >
+          <p className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}>
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
       </div>
     </main>
-  )
+  );
 }
