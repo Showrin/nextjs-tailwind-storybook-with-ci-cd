@@ -1,0 +1,21 @@
+name: Tests CI
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Test using Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.10.0'
+      - name: Install yarn
+        run: npm install -g yarn
+      - name: Install Dependencies
+        run: yarn install
+      - name: Run JS Linter
+        run: yarn lint
+      - name: Run JS Tests
+        run: yarn test
