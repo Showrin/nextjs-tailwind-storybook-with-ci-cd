@@ -19,6 +19,7 @@ This template will provide the full setup under the hood and will save a big por
   - [How to Create Repository Using This Template?](#how-to-create-repository-using-this-template)
   - [Package Versions](#package-versions)
   - [Avaialable Commands](#avaialable-commands)
+  - [Folder Structure](#folder-structure)
 
 ## How to Create Repository Using This Template?
 
@@ -104,3 +105,75 @@ There are some commands preadded to this template. These commands will help to e
    ```
    yarn build-storybook
    ```
+
+## Folder Structure
+
+Before working on a project, we should know about its folder structure. This helps a lot to understand where to find which components or portion of codes. In this template, the folder structure was tried to be kept as simple as possible.
+
+1. <ins>**.github/workflows**</ins>: This folder is used to **keep all the files related to github actions**. We've already setup a basic CI/CD in the template and named the file `tests.yml`. We can create more yml files for different actions.
+2. <ins>**.storybook**</ins>: All the storybook related config files like theme, seo, preview, manager etc live inside this folder.
+3. <ins>**components**</ins>: In our web app, we'll have to build many reusable components like button, input, modal etc. This is the place where we can keep all our reusable components. While creating a component we have tto ensure the following rules have been followed in order to maintain the consistency.
+
+   1. Each **component must have a folder and index.js** file inside the folder. For example: if we are creating a button component, the structure should be:
+
+      ```
+      components
+      | - Buttton
+          | - Button.jsx
+          | - index.js
+      ```
+
+      Then we can access the component from outside using `./componets/Button`.
+
+   2. If a component has some sub-components, then we can keep them in a folder named `subComponents` inside that component.
+
+      ```
+      components
+      | - Buttton
+          | - subComponents
+              | - ButtonOverlay
+                  | - ButtonOverlay.jsx
+                  | - index.js
+          | - Button.jsx
+          | - index.js
+      ```
+
+   3. Each component must have a story file (for storybook). Story file names should be in `<Component Name>.stories.jsx` this format.
+
+      ```
+      components
+      | - Buttton
+          | - subComponents
+              | - ButtonOverlay
+                  | - ButtonOverlay.jsx
+                  | - index.js
+          | - Button.jsx
+          | - Button.stories.jsx
+          | - index.js
+      ```
+
+   4. Each component and sub-components must have a test file (for unit testing). Test file names should be in `<Component Name>.stories.jsx` this format.
+
+      ```
+      components
+      | - Buttton
+          | - subComponents
+              | - ButtonOverlay
+                  | - ButtonOverlay.jsx
+                  | - ButtonOverlay.test.jsx
+                  | - index.js
+          | - Button.jsx
+          | - Button.stories.jsx
+          | - Button.test.jsx
+          | - index.js
+      ```
+
+   That's a general set of rules for the `components` folder. But of course, you can set your own rules and structure. In that case, you might have to change storybook, jest, and other configs.
+
+4. <ins>**pages**</ins>: This folder keeps all the page and api related files of our app. It's a basic feature provided by **NextJS**. To learn more about them, you can read the following docs from NextJS.
+
+   1. [NextJS Pages](https://nextjs.org/docs/basic-features/pages)
+   2. [NextJS API Routes](https://nextjs.org/docs/api-routes/introduction)
+
+5. <ins>**public**</ins>: This folder is also provided by **NextJS**. It keeps all the static assets like images, icons, audios, pdfs etc. To learn more about this folder, visit [**Static File Serving in NextJs**](https://nextjs.org/docs/basic-features/static-file-serving).
+6. <ins>**styles**</ins>: All the global css or scss files will be kept in this folder. You can keep the local files too with an appropiate folder structure in it.
