@@ -1,4 +1,4 @@
-# nextjs-tailwind-storybook-with-ci-cd (Status: :construction: WIP)
+# nextjs-tailwind-storybook-with-ci-cd
 
 This repository is built to provide a ready-to-go template for the projects that are using the following tech stacks:
 
@@ -14,7 +14,7 @@ This template will provide the full setup under the hood and will save a big por
 
 ## Table of Contents
 
-- [nextjs-tailwind-storybook-with-ci-cd (Status: :construction: WIP)](#nextjs-tailwind-storybook-with-ci-cd-status-construction-wip)
+- [nextjs-tailwind-storybook-with-ci-cd](#nextjs-tailwind-storybook-with-ci-cd)
   - [Table of Contents](#table-of-contents)
   - [How to Create Repository Using This Template?](#how-to-create-repository-using-this-template)
   - [Package Versions](#package-versions)
