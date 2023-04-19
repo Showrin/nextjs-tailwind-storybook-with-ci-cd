@@ -23,6 +23,7 @@ This template will provide the full setup under the hood and will save a big por
   - [Change NextJS Config](#change-nextjs-config)
   - [Change Tailwind Config](#change-tailwind-config)
   - [Change Unit Test Config](#change-unit-test-config)
+  - [Change Eslint Config](#change-eslint-config)
 
 ## How to Create Repository Using This Template?
 
@@ -194,3 +195,7 @@ If you need to change settings of tailwind, then `postcss.config.js` and `tailwi
 ## Change Unit Test Config
 
 Basically, we can modify jest unit testing setup using `jest.config.js` and `jest.setup.js` file. To learn more about it, you can go through [**Jest and React Testing Library in NextJS**](https://nextjs.org/docs/testing#jest-and-react-testing-library).
+
+## Change Eslint Config
+
+We can use `.eslintrc.json` file in order to add or remove any eslint rule. For more details, you can read [**ESLint Configuration Files Doc**](https://eslint.org/docs/latest/use/configure/configuration-files).
