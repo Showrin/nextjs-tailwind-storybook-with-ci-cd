@@ -152,7 +152,7 @@ Before working on a project, we should know about its folder structure. This hel
           | - index.js
       ```
 
-   4. Each component and sub-components must have a test file (for unit testing). Test file names should be in `<Component Name>.stories.jsx` this format.
+   4. Each component and sub-components must have a test file (for unit testing). Test file names should be in `<Component Name>.test.jsx` this format.
 
       ```
       components
