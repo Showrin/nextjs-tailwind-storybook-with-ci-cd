@@ -189,7 +189,7 @@ But in the jsconfig.json file, we've setup a path alias for the root directory. 
 
 ## Change Tailwind Config
 
-If you need to change settings of tailwind, then `postcss.config.js` and `tailwind.config.js` is the place where you'll have to work. You can modify or extend the tailwind theme in `tailwind.config.js` file.
+If you need to change settings of tailwind, then `postcss.config.js` and `tailwind.config.js` is the place where you'll have to work. You can modify or extend the tailwind theme in `tailwind.config.js` file. For more info, you can read [**Tailwind Configuration**](https://tailwindcss.com/docs/configuration) doc.
 
 ## Change Unit Test Config
 
