@@ -185,7 +185,7 @@ Before working on a project, we should know about its folder structure. This hel
 
 If you need to change settings of nextjs, then `next.config.js` and `jsconfig.json` is the place where you'll have to work. Currently, we've done a bare minimum setup in both files.
 
-But in the jsconfig.json file, we've setup a path alias for the root directory. **You can access the root directory using `@/` this alias**. To learn more about it, read [**Absolute Imports and Module path aliases in NextJS**](https://nextjs.org/docs/advanced-features/module-path-aliases).
+But in the jsconfig.json file, we've setup a path alias for the root directory. **You can access the root directory using `@/` this alias**. To learn more about it, read [**Absolute Imports and Module path aliases in NextJS**](https://nextjs.org/docs/advanced-features/module-path-aliases). Also, you can learn more about `next.config.js` file from [**next.config.js Doc**](https://nextjs.org/docs/api-reference/next.config.js/introduction).
 
 ## Change Tailwind Config
 
