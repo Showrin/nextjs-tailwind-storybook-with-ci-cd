@@ -12,6 +12,12 @@ This repository is built to provide a ready-to-go template for the projects that
 
 This template will provide the full setup under the hood and will save a big portion of your time. You have to just create your new repo using this template.
 
+**Here's the table of contents of this doc >>>>**
+
+- [nextjs-tailwind-storybook-with-ci-cd (Status: :construction: WIP)](#nextjs-tailwind-storybook-with-ci-cd-status-construction-wip)
+  - [Package Versions](#package-versions)
+  - [Avaialable Commands](#avaialable-commands)
+
 ## Package Versions
 
 Following versions were installed when this template was built.
