@@ -24,6 +24,7 @@ This template will provide the full setup under the hood and will save a big por
   - [Change Tailwind Config](#change-tailwind-config)
   - [Change Unit Test Config](#change-unit-test-config)
   - [Change Eslint Config](#change-eslint-config)
+  - [Change Eslint Config](#change-eslint-config-1)
 
 ## How to Create Repository Using This Template?
 
@@ -199,3 +200,7 @@ Basically, we can modify jest unit testing setup using `jest.config.js` and `jes
 ## Change Eslint Config
 
 We can use `.eslintrc.json` file in order to add or remove any eslint rule. For more details, you can read [**ESLint Configuration Files Doc**](https://eslint.org/docs/latest/use/configure/configuration-files).
+
+## Change Eslint Config
+
+`.prettierrc.json` file is there to change prettier config of the app. We've added some configs in this file. To remove or add any config, you can go through [**Prettier Configuration File Doc**](https://prettier.io/docs/en/configuration.html).
