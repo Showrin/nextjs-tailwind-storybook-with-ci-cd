@@ -21,6 +21,7 @@ This template will provide the full setup under the hood and will save a big por
   - [Avaialable Commands](#avaialable-commands)
   - [Folder Structure](#folder-structure)
   - [Change NextJS Config](#change-nextjs-config)
+  - [Change Tailwind Config](#change-tailwind-config)
 
 ## How to Create Repository Using This Template?
 
@@ -184,3 +185,7 @@ Before working on a project, we should know about its folder structure. This hel
 If you need to change settings of nextjs, then `next.config.js` and `jsconfig.json` is the place where you'll have to work. Currently, we've done a bare minimum setup in both files.
 
 But in the jsconfig.json file, we've setup a path alias for the root directory. **You can access the root directory using `@/` this alias**. To learn more about it, read [**Absolute Imports and Module path aliases in NextJS**](https://nextjs.org/docs/advanced-features/module-path-aliases).
+
+## Change Tailwind Config
+
+If you need to change settings of tailwind, then `postcss.config.js` and `tailwind.config.js` is the place where you'll have to work. You can modify or extend the tailwind theme in `tailwind.config.js` file.
