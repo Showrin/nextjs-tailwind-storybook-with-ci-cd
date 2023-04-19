@@ -28,6 +28,7 @@ This template will provide the full setup under the hood and will save a big por
   - [Change Storybook Config](#change-storybook-config)
   - [CI/CD in This App](#cicd-in-this-app)
   - [Storybook doesn't Support Some NextJS Features](#storybook-doesnt-support-some-nextjs-features)
+  - [License](#license)
 
 ## How to Create Repository Using This Template?
 
@@ -227,3 +228,7 @@ A github action has been setup in `tests.yml` file inside `.github` folder. This
 ## Storybook doesn't Support Some NextJS Features
 
 Currently, storybook doesn't support some features (TurboPack, Server Component, SWC etc) of `NextJS v13`. But if you are not using these features, then there shouldn't be any problem with storybook. [**[Source]**](https://storybook.js.org/docs/ember/configure/frameworks#nextjs-13-doesnt-work-with-storybook)
+
+## License
+
+Being an open source repository, this repo has a MIT License in it. But when you are using this template, you should have to use your own license here :rotating_light::rotating_light::rotating_light:. You can easily generate this. You can read [**Licensing a repository Doc**](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
