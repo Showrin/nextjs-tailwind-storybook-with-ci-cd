@@ -12,11 +12,24 @@ This repository is built to provide a ready-to-go template for the projects that
 
 This template will provide the full setup under the hood and will save a big portion of your time. You have to just create your new repo using this template.
 
-**Here's the table of contents of this doc >>>>**
+## Table of Contents
 
 - [nextjs-tailwind-storybook-with-ci-cd (Status: :construction: WIP)](#nextjs-tailwind-storybook-with-ci-cd-status-construction-wip)
+  - [Table of Contents](#table-of-contents)
+  - [How to Create Repository Using This Template?](#how-to-create-repository-using-this-template)
   - [Package Versions](#package-versions)
   - [Avaialable Commands](#avaialable-commands)
+
+## How to Create Repository Using This Template?
+
+1. Click on [**this link to generate a new repo using this template**](https://github.com/Showrin/nextjs-tailwind-storybook-with-ci-cd/generate).
+2. Give a name to your repo.
+3. Provide a meaningfull description.
+4. You can keep the **Include all branches** options unchecked.
+5. Click on **Create repository from template** button and boom :boom:. Your repository is ready.
+6. Now if you clone the repo in your PC and run `yarn`, all the dependency will be installed.
+7. Then running `yarn dev` will start the app at **http://localhost:3000**.
+8. running `yarn storybook` will start the storybook of your app at **http://localhost:6006**.
 
 ## Package Versions
 
@@ -44,7 +57,7 @@ Following versions were installed when this template was built.
 
 There are some commands preadded to this template. These commands will help to execute basic tasks.
 
-1. Following command will start the dev server at port `3000` and we can visit the site at **http://localhost:6006**.
+1. Following command will start the dev server at port `3000` and we can visit the site at **http://localhost:3000**.
 
    ```
    yarn dev
