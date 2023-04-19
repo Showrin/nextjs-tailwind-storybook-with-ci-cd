@@ -26,6 +26,7 @@ This template will provide the full setup under the hood and will save a big por
   - [Change Eslint Config](#change-eslint-config)
   - [Change Eslint Config](#change-eslint-config-1)
   - [Change Storybook Config](#change-storybook-config)
+  - [CI/CD in This App](#cicd-in-this-app)
 
 ## How to Create Repository Using This Template?
 
@@ -217,3 +218,7 @@ To modify the theme, we may have to work in `appTheme.js` and `manager.js` files
 If we want to do any SEO related changes, then we may have to modify `manager-head.html` or `main.js` files. To read more about it, visit [**Search engine optimization (SEO) Doc**](https://storybook.js.org/docs/react/sharing/publish-storybook#search-engine-optimization-seo).
 
 If we want to access any assets in the `public` folder, then we don't have to mention `public` in the src url. You can emit that. For example, we have an image `xyz.png` in public folder. Then we can access this image from any story using `./xyz.png`. Learn more about it from [**Serving static files via Storybook Configuration Doc**](https://storybook.js.org/docs/ember/configure/images-and-assets#serving-static-files-via-storybook-configuration).
+
+## CI/CD in This App
+
+A github action has been setup in `tests.yml` file inside `.github` folder. This action runs js linting and unit test every time a new commit has been pushed to origin. You can write more github actions here as per your need.
