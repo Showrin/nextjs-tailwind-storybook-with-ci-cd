@@ -25,6 +25,7 @@ This template will provide the full setup under the hood and will save a big por
   - [Change Unit Test Config](#change-unit-test-config)
   - [Change Eslint Config](#change-eslint-config)
   - [Change Eslint Config](#change-eslint-config-1)
+  - [Change Storybook Config](#change-storybook-config)
 
 ## How to Create Repository Using This Template?
 
@@ -204,3 +205,15 @@ We can use `.eslintrc.json` file in order to add or remove any eslint rule. For 
 ## Change Eslint Config
 
 `.prettierrc.json` file is there to change prettier config of the app. We've added some configs in this file. To remove or add any config, you can go through [**Prettier Configuration File Doc**](https://prettier.io/docs/en/configuration.html).
+
+## Change Storybook Config
+
+All the config files of storybook are kept in the `.storybook` folder.
+
+All the project related configs for storybook are in `main.js` file. If you need to change anything in the storybook preview section, then `preview.js` file is the appropiate one. Learn more from [**Configure Storybook Doc**](https://storybook.js.org/docs/react/configure/overview).
+
+To modify the theme, we may have to work in `appTheme.js` and `manager.js` files. To learn more about theming, visit [**Storybook Theming Doc**](https://storybook.js.org/docs/react/configure/theming).
+
+If we want to do any SEO related changes, then we may have to modify `manager-head.html` or `main.js` files. To read more about it, visit [**Search engine optimization (SEO) Doc**](https://storybook.js.org/docs/react/sharing/publish-storybook#search-engine-optimization-seo).
+
+If we want to access any assets in the `public` folder, then we don't have to mention `public` in the src url. You can emit that. For example, we have an image `xyz.png` in public folder. Then we can access this image from any story using `./xyz.png`. Learn more about it from [**Serving static files via Storybook Configuration Doc**](https://storybook.js.org/docs/ember/configure/images-and-assets#serving-static-files-via-storybook-configuration).
