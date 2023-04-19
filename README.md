@@ -22,6 +22,7 @@ This template will provide the full setup under the hood and will save a big por
   - [Folder Structure](#folder-structure)
   - [Change NextJS Config](#change-nextjs-config)
   - [Change Tailwind Config](#change-tailwind-config)
+  - [Change Unit Test Config](#change-unit-test-config)
 
 ## How to Create Repository Using This Template?
 
@@ -189,3 +190,7 @@ But in the jsconfig.json file, we've setup a path alias for the root directory. 
 ## Change Tailwind Config
 
 If you need to change settings of tailwind, then `postcss.config.js` and `tailwind.config.js` is the place where you'll have to work. You can modify or extend the tailwind theme in `tailwind.config.js` file.
+
+## Change Unit Test Config
+
+Basically, we can modify jest unit testing setup using `jest.config.js` and `jest.setup.js` file. To learn more about it, you can go through [**Jest and React Testing Library in NextJS**](https://nextjs.org/docs/testing#jest-and-react-testing-library).
