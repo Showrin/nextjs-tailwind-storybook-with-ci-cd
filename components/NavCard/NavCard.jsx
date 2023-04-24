@@ -4,6 +4,10 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
+/**
+ * > It will show a card with a URL. Clicking on the card will navigate the user to that URL.
+ */
+
 const NavCard = ({ title, description, href }) => {
   return (
     <a
