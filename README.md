@@ -221,6 +221,11 @@ If we want to do any SEO related changes, then we may have to modify `manager-he
 
 If we want to access any assets in the `public` folder, then we don't have to mention `public` in the src url. You can emit that. For example, we have an image `xyz.png` in public folder. Then we can access this image from any story using `./xyz.png`. Learn more about it from [**Serving static files via Storybook Configuration Doc**](https://storybook.js.org/docs/ember/configure/images-and-assets#serving-static-files-via-storybook-configuration).
 
+If we want to write detailed descriptions about our components, props and stories we can use JSDoc comments. To learn more please, visit the following docs from Storybook.
+
+1. [**Writing descriptions in Storybook**](https://storybook.js.org/docs/react/api/doc-block-description)
+2. [**Writing descriptions of Props in Storybook**](https://storybook.js.org/docs/react/api/argtypes#grouping)
+
 ## CI/CD in This App
 
 A github action has been setup in `tests.yml` file inside `.github` folder. This action runs js linting and unit test every time a new commit has been pushed to origin. You can write more github actions here as per your need.
