@@ -7,6 +7,13 @@
         "varsIgnorePattern": "React"
       }
     ],
-    "react/prop-types": [2]
+    "react/prop-types": [2],
+    "react/require-default-props": [
+      2,
+      {
+        "forbidDefaultForRequired": true,
+        "functions": "defaultProps"
+      }
+    ]
   }
 }
