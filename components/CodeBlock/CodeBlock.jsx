@@ -9,12 +9,11 @@ const CodeBlock = ({ children }) => {
   );
 };
 
-CodeBlock.defaultProps = {
-  children: null,
-};
-
 CodeBlock.propTypes = {
-  children: PropTypes.node,
+  /**
+   * The code snippet that needs to be shown.
+   */
+  children: PropTypes.node.isRequired,
 };
 
 export default CodeBlock;

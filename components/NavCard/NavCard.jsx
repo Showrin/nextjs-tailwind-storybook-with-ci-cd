@@ -30,8 +30,17 @@ NavCard.defaultProps = {
 };
 
 NavCard.propTypes = {
+  /**
+   * Title to be shown in the card.
+   */
   title: PropTypes.string,
+  /**
+   * Description to be shown in the card.
+   */
   description: PropTypes.string,
+  /**
+   * URL of the page which users will be redirected to after clicking the card.
+   */
   href: PropTypes.string,
 };
 
