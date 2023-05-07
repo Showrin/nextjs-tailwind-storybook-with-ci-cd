@@ -38,7 +38,7 @@ This template will provide the full setup under the hood and will save a big por
 2. Import your repository on this [**link**](https://vercel.com/import/git)
 3. Sign in with GitHub and add your GitHub account
 4. Install `Vercel` in your GitHub when prompted
-5. Grant access to your targeted repository and click `Import`
+5. Grant access to your `nextjs app` repository and click `Import`
 6. Add environment variables from `.env` file in `Configure Project` section
 7. Click `Deploy`
 8. On successful deployment, visit `[YOUR-URL].vercel.app`
