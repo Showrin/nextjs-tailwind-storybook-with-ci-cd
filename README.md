@@ -30,6 +30,19 @@ This template will provide the full setup under the hood and will save a big por
   - [Storybook doesn't Support Some NextJS Features](#storybook-doesnt-support-some-nextjs-features)
   - [License](#license)
 
+## Deployment Guideline
+
+### How to Deploy on Vercel
+
+1. Create a vercel account on this [**link**](https://vercel.com/signup)
+2. Import your repository on this [**link**](https://vercel.com/import/git)
+3. Sign in with GitHub and add your GitHub account
+4. Install `Vercel` in your GitHub when prompted
+5. Grant access to your targeted repository and click `Import`
+6. Add environment variables from `.env` file in `Configure Project` section
+7. Click `Deploy`
+8. On successful deployment, visit `[YOUR-URL].vercel.app`
+
 ## How to Create Repository Using This Template?
 
 1. Click on [**this link to generate a new repo using this template**](https://github.com/Showrin/nextjs-tailwind-storybook-with-ci-cd/generate).
@@ -63,7 +76,7 @@ Following versions were installed when this template was built.
 | prettier                  |   **`2.8.7`** |
 | storybook                 |   **`7.0.5`** |
 
-## Avaialable Commands
+## Available Commands
 
 There are some commands preadded to this template. These commands will help to execute basic tasks.
 
