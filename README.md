@@ -18,7 +18,7 @@ This template will provide the full setup under the hood and will save a big por
   - [Table of Contents](#table-of-contents)
   - [How to Create Repository Using This Template?](#how-to-create-repository-using-this-template)
   - [Package Versions](#package-versions)
-  - [Avaialable Commands](#avaialable-commands)
+  - [Available Commands](#available-commands)
   - [Folder Structure](#folder-structure)
   - [Change NextJS Config](#change-nextjs-config)
   - [Change Tailwind Config](#change-tailwind-config)
@@ -64,7 +64,7 @@ Following versions were installed when this template was built.
 | prettier                  |   **`2.8.7`** |
 | storybook                 |   **`7.0.5`** |
 
-## Avaialable Commands
+## Available Commands
 
 There are some commands preadded to this template. These commands will help to execute basic tasks.
 
