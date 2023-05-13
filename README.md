@@ -29,19 +29,7 @@ This template will provide the full setup under the hood and will save a big por
   - [CI/CD in This App](#cicd-in-this-app)
   - [Storybook doesn't Support Some NextJS Features](#storybook-doesnt-support-some-nextjs-features)
   - [License](#license)
-
-## Deployment Guideline
-
-### How to Deploy on Vercel
-
-1. Create a vercel account on this [**link**](https://vercel.com/signup)
-2. Import your repository on this [**link**](https://vercel.com/import/git)
-3. Sign in with GitHub and add your GitHub account
-4. Install `Vercel` in your GitHub when prompted
-5. Grant access to your `nextjs app` repository and click `Import`
-6. Add environment variables from `.env` file in `Configure Project` section
-7. Click `Deploy`
-8. On successful deployment, visit `[YOUR-URL].vercel.app`
+  - [Deployment Guideline](#deployment-guideline)
 
 ## How to Create Repository Using This Template?
 
@@ -76,7 +64,7 @@ Following versions were installed when this template was built.
 | prettier                  |   **`2.8.7`** |
 | storybook                 |   **`7.0.5`** |
 
-## Available Commands
+## Avaialable Commands
 
 There are some commands preadded to this template. These commands will help to execute basic tasks.
 
@@ -250,3 +238,15 @@ Currently, storybook doesn't support some features (TurboPack, Server Component,
 ## License
 
 Being an open source repository, this repo has a MIT License in it. But when you are using this template, you should have to use your own license here :rotating_light::rotating_light::rotating_light:. You can easily generate this. You can read [**Licensing a repository Doc**](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+
+## Deployment Guideline
+
+### How to Deploy on Vercel
+
+1. Visit [**Vercel's Dashboard**](https://vercel.com/import/git).
+2. Under `Import Git Repository` section, continue with your Github account.
+3. Install `Vercel` in your GitHub account when prompted.
+4. Select your `nextjs app` repository and click `Import`. 
+5. Add environment variables from your `nextjs app`'s `.env` file under `Configure Project` section.
+6. Click `Deploy`.
+7. On successful deployment, visit the generated url that follows the pattern `[DOMAIN-NAME].vercel.app`
