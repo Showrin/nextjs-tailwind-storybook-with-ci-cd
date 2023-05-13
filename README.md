@@ -243,10 +243,10 @@ Being an open source repository, this repo has a MIT License in it. But when you
 
 ### How to Deploy on Vercel
 
-1. Visit [**Vercel's Dashboard**](https://vercel.com/import/git).
+1. Visit [**Vercel's Dashboard**](https://vercel.com/new).
 2. Under `Import Git Repository` section, continue with your Github account.
 3. Install `Vercel` in your GitHub account when prompted.
 4. Select your `nextjs app` repository and click `Import`. 
 5. Add environment variables from your `nextjs app`'s `.env` file under `Configure Project` section.
 6. Click `Deploy`.
-7. On successful deployment, visit the generated url that follows the pattern `[DOMAIN-NAME].vercel.app`
+7. On successful deployment, visit the generated url that follows the pattern `[DOMAIN-NAME].vercel.app`.
