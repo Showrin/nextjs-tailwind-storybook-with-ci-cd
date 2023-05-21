@@ -18,7 +18,7 @@ This template will provide the full setup under the hood and will save a big por
   - [Table of Contents](#table-of-contents)
   - [How to Create Repository Using This Template?](#how-to-create-repository-using-this-template)
   - [Package Versions](#package-versions)
-  - [Avaialable Commands](#avaialable-commands)
+  - [Available Commands](#available-commands)
   - [Folder Structure](#folder-structure)
   - [Change NextJS Config](#change-nextjs-config)
   - [Change Tailwind Config](#change-tailwind-config)
@@ -29,6 +29,8 @@ This template will provide the full setup under the hood and will save a big por
   - [CI/CD in This App](#cicd-in-this-app)
   - [Storybook doesn't Support Some NextJS Features](#storybook-doesnt-support-some-nextjs-features)
   - [License](#license)
+  - [Deployment Guideline](#deployment-guideline)
+    - [How to Deploy NextJS App on Vercel](#how-to-deploy-nextjs-app-on-vercel)
 
 ## How to Create Repository Using This Template?
 
@@ -63,7 +65,7 @@ Following versions were installed when this template was built.
 | prettier                  |   **`2.8.7`** |
 | storybook                 |   **`7.0.5`** |
 
-## Avaialable Commands
+## Available Commands
 
 There are some commands preadded to this template. These commands will help to execute basic tasks.
 
@@ -237,3 +239,17 @@ Currently, storybook doesn't support some features (TurboPack, Server Component,
 ## License
 
 Being an open source repository, this repo has a MIT License in it. But when you are using this template, you should have to use your own license here :rotating_light::rotating_light::rotating_light:. You can easily generate this. You can read [**Licensing a repository Doc**](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+
+## Deployment Guideline
+
+### How to Deploy NextJS App on Vercel
+
+1. Visit [**Vercel's Dashboard**](https://vercel.com/new).
+2. Under **`Import Git Repository`** section, click **`Continue with Github`** button.
+3. Install **`Vercel`** in your GitHub account when prompted.
+4. Select your **`NextJs app`** repository and click **`Import`**.
+5. Add environment variables (if present) from your **`NextJs app`**'s **`.env`** file under **`Environment Variables`** tab in **`Configure Project`** section.
+6. Click **`Deploy`**.
+7. On successful deployment, you will be directed to a new url with a preview image of your deployed **`NextJs app`**.
+8. Click on the preview image.
+9. You will be directed to a url that looks like **`[DOMAIN-NAME].vercel.app`**.
