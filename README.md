@@ -30,6 +30,7 @@ This template will provide the full setup under the hood and will save a big por
   - [Storybook doesn't Support Some NextJS Features](#storybook-doesnt-support-some-nextjs-features)
   - [License](#license)
   - [Deployment Guideline](#deployment-guideline)
+    - [How to Deploy NextJS App on Vercel](#how-to-deploy-nextjs-app-on-vercel)
 
 ## How to Create Repository Using This Template?
 
@@ -241,14 +242,14 @@ Being an open source repository, this repo has a MIT License in it. But when you
 
 ## Deployment Guideline
 
-### How to Deploy on Vercel
+### How to Deploy NextJS App on Vercel
 
 1. Visit [**Vercel's Dashboard**](https://vercel.com/new).
-2. Under `Import Git Repository` section, click `Continue with Github` button.
-3. Install `Vercel` in your GitHub account when prompted.
-4. Select your `nextjs app` repository and click `Import`. 
-5. Add environment variables (if present) from your `nextjs app`'s `.env` file under `Environment Variables` tab in `Configure Project` section.
-6. Click `Deploy`.
-7. On successful deployment, you will be directed to a new url with a preview image of your deployed `nextjs app`.  
-8. Click on the preview image. 
-9. You will be directed to a url that looks like `[DOMAIN-NAME].vercel.app`.
+2. Under **`Import Git Repository`** section, click **`Continue with Github`** button.
+3. Install **`Vercel`** in your GitHub account when prompted.
+4. Select your **`NextJs app`** repository and click **`Import`**.
+5. Add environment variables (if present) from your **`NextJs app`**'s **`.env`** file under **`Environment Variables`** tab in **`Configure Project`** section.
+6. Click **`Deploy`**.
+7. On successful deployment, you will be directed to a new url with a preview image of your deployed **`NextJs app`**.
+8. Click on the preview image.
+9. You will be directed to a url that looks like **`[DOMAIN-NAME].vercel.app`**.
